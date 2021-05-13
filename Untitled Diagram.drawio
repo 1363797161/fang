@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T02:38:15.092Z" agent="5.0 (Windows)" etag="LvUKsSUtZR-h0ksZ7v1v" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T02:39:08.507Z" agent="5.0 (Windows)" etag="PiOhmLTjZ1jSzrDc2tFe" version="14.6.12" type="github">
   <diagram id="6wZPgM5fM8KpBSpR6kdH" name="Page-1">
     <mxGraphModel dx="1422" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,9 @@
         <mxCell id="cuceO5Cf-MV7t8IaMW8p-13" value="之前要发布而未发布的数据，判断是否还需要发布" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="245" width="160" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="KZA7-qzisNnOoE0y8Lmi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuceO5Cf-MV7t8IaMW8p-17" target="KZA7-qzisNnOoE0y8Lmi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cuceO5Cf-MV7t8IaMW8p-17" value="清除定时发布数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="540" width="120" height="60" as="geometry" />
         </mxCell>
@@ -56,6 +59,9 @@
         </mxCell>
         <mxCell id="KZA7-qzisNnOoE0y8Lmi-4" value="修改发布状态为已发布，修改发布方式为立即发布，删除定时时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZA7-qzisNnOoE0y8Lmi-7" value="修改发布方式为立即发布，删除定时时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
