@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T07:11:28.481Z" agent="5.0 (Windows)" etag="lcXvHfuuVPTLV_2GZLus" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T07:12:27.654Z" agent="5.0 (Windows)" etag="ljkttKhwUkRv4v-TUzT5" version="14.6.12" type="github">
   <diagram id="6wZPgM5fM8KpBSpR6kdH" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,8 +60,8 @@
         <mxCell id="KZA7-qzisNnOoE0y8Lmi-4" value="修改发布状态为已发布，修改发布方式为立即发布，删除定时时间。修改之前已发布页面的发布状态为未发布" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="710" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KZA7-qzisNnOoE0y8Lmi-7" value="修改发布方式为立即发布，删除定时时间" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="710" width="120" height="60" as="geometry" />
+        <mxCell id="KZA7-qzisNnOoE0y8Lmi-7" value="修改发布方式为立即发布，删除定时时间，修改之前已发布页面的发布状态为未发布" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="655" y="710" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
