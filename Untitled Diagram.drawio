@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T02:17:15.091Z" agent="5.0 (Windows)" etag="x07qFq5GKpviN9eRjRBN" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T02:17:59.333Z" agent="5.0 (Windows)" etag="lQ8tjLsuANNKQGgeYpnb" version="14.6.12" type="github">
   <diagram id="6wZPgM5fM8KpBSpR6kdH" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,18 +28,6 @@
             <mxPoint x="355" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cuceO5Cf-MV7t8IaMW8p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cuceO5Cf-MV7t8IaMW8p-13" target="cuceO5Cf-MV7t8IaMW8p-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="520" y="536" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cuceO5Cf-MV7t8IaMW8p-16" value="需要" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cuceO5Cf-MV7t8IaMW8p-15">
-          <mxGeometry x="-0.2951" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="cuceO5Cf-MV7t8IaMW8p-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cuceO5Cf-MV7t8IaMW8p-13" target="cuceO5Cf-MV7t8IaMW8p-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -47,6 +35,9 @@
           <mxGeometry x="0.0938" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cuceO5Cf-MV7t8IaMW8p-21" value="需要" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cuceO5Cf-MV7t8IaMW8p-13" target="cuceO5Cf-MV7t8IaMW8p-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cuceO5Cf-MV7t8IaMW8p-13" value="之前要发布而未发布的数据，判断是否还需要发布" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="245" width="160" height="190" as="geometry" />
