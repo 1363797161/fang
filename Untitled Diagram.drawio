@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T02:12:51.273Z" agent="5.0 (Windows)" etag="WMvrdV_T-xJ50C59j5BJ" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T02:15:43.338Z" agent="5.0 (Windows)" etag="IMUMcjrmfVSDtMoEEDBh" version="14.6.12" type="github">
   <diagram id="6wZPgM5fM8KpBSpR6kdH" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="200" y="120" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cuceO5Cf-MV7t8IaMW8p-5" value="根据定时时间动态创建定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cuceO5Cf-MV7t8IaMW8p-7" value="立即执行任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cuceO5Cf-MV7t8IaMW8p-11" value="下一个5分钟将要执行的任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cuceO5Cf-MV7t8IaMW8p-9" target="cuceO5Cf-MV7t8IaMW8p-5">
           <mxGeometry relative="1" as="geometry" />
@@ -22,11 +22,30 @@
         <mxCell id="cuceO5Cf-MV7t8IaMW8p-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuceO5Cf-MV7t8IaMW8p-9" target="cuceO5Cf-MV7t8IaMW8p-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cuceO5Cf-MV7t8IaMW8p-9" value="每5分钟拉取一次下一个5分钟将要执行的任务，以及之前要执行而未执行的任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cuceO5Cf-MV7t8IaMW8p-9" value="每5分钟拉取一次下一个5分钟将要发布的数据，以及之前要发布而未发布的数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="280" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="cuceO5Cf-MV7t8IaMW8p-13" value="之前要执行而未执行的任务，是否需要" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="250" width="160" height="180" as="geometry" />
+        <mxCell id="cuceO5Cf-MV7t8IaMW8p-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cuceO5Cf-MV7t8IaMW8p-13" target="cuceO5Cf-MV7t8IaMW8p-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuceO5Cf-MV7t8IaMW8p-16" value="需要" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cuceO5Cf-MV7t8IaMW8p-15">
+          <mxGeometry x="-0.2951" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuceO5Cf-MV7t8IaMW8p-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cuceO5Cf-MV7t8IaMW8p-13" target="cuceO5Cf-MV7t8IaMW8p-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuceO5Cf-MV7t8IaMW8p-19" value="不需要" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cuceO5Cf-MV7t8IaMW8p-18">
+          <mxGeometry x="0.0938" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuceO5Cf-MV7t8IaMW8p-13" value="之前要发布而未发布的数据，判断是否还需要发布" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="245" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cuceO5Cf-MV7t8IaMW8p-17" value="清除定时发布数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
