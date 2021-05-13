@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T03:30:30.901Z" agent="5.0 (Windows)" etag="NfCM1L3y-9x2tbBlQc87" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T03:36:17.649Z" agent="5.0 (Windows)" etag="-n4af5_R1awxptLQrDkE" version="14.6.12" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,10 @@
         <mxCell id="cEIBkgwO9S1BXHAtEz54-0" value="&lt;span&gt;直接从&lt;span lang=&quot;EN-US&quot;&gt;redis&lt;/span&gt;缓存中取数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEIBkgwO9S1BXHAtEz54-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cEIBkgwO9S1BXHAtEz54-2" target="cEIBkgwO9S1BXHAtEz54-7" edge="1">
+        <mxCell id="cEIBkgwO9S1BXHAtEz54-9" value="获取到" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cEIBkgwO9S1BXHAtEz54-2" target="cEIBkgwO9S1BXHAtEz54-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WUjk0ORIwApzRZrjKK75-1" value="未获取到" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cEIBkgwO9S1BXHAtEz54-2" target="WUjk0ORIwApzRZrjKK75-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEIBkgwO9S1BXHAtEz54-2" value="获取redis分布式锁" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -35,7 +38,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEIBkgwO9S1BXHAtEz54-7" value="&lt;span&gt;获得此锁的线程会去数据库中取数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="467.5" y="480" width="125" height="80" as="geometry" />
+          <mxGeometry x="470" y="480" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cEIBkgwO9S1BXHAtEz54-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cEIBkgwO9S1BXHAtEz54-8" target="cEIBkgwO9S1BXHAtEz54-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -57,6 +60,9 @@
         </mxCell>
         <mxCell id="c9R_izhih-uxg0j0Ymlv-1" value="&lt;span lang=&quot;EN-US&quot;&gt;redis&lt;/span&gt;&lt;span&gt;中缓存这个&lt;span lang=&quot;EN-US&quot;&gt;key&lt;/span&gt;的&lt;span lang=&quot;EN-US&quot;&gt;value&lt;/span&gt;为&lt;span lang=&quot;EN-US&quot;&gt;null,&lt;/span&gt;并且设置失效时间为&lt;span lang=&quot;EN-US&quot;&gt;5&lt;/span&gt;分钟&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="260" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WUjk0ORIwApzRZrjKK75-0" value="不断自旋从redis中获取数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
