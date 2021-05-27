@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T06:41:30.369Z" agent="5.0 (Windows)" version="14.6.12" etag="Sk0tlWe5qOHunejvzI0q" type="github"><diagram id="Cp5k-9RL2kLW5OHfvehj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-27T06:48:28.856Z" agent="5.0 (Windows)" etag="zbRCu78WUjzWof-HU4QY" version="14.6.12" type="github">
+  <diagram id="Cp5k-9RL2kLW5OHfvehj" name="第 1 页">
+    <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-4" value="下单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_m9wMhNGeFRY37HW5Epy-2" target="_m9wMhNGeFRY37HW5Epy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-2" value="用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-3" value="订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_m9wMhNGeFRY37HW5Epy-8" target="_m9wMhNGeFRY37HW5Epy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_m9wMhNGeFRY37HW5Epy-8" target="_m9wMhNGeFRY37HW5Epy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-8" value="定时器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-10" value="2分钟定时扫描订单表，仅扫描待付款的数据" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="230" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-16" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_m9wMhNGeFRY37HW5Epy-13" target="_m9wMhNGeFRY37HW5Epy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-13" value="判断是否超时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="78.25" y="390" width="133.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_m9wMhNGeFRY37HW5Epy-15" value="关闭订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
