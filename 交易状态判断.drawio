@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T11:17:33.226Z" agent="5.0 (Windows)" version="14.6.12" etag="rK2-ykYjcIDI1EiibIEY" type="github"><diagram id="wttoIb0FVgMLbgLxfZE_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-27T11:28:31.822Z" agent="5.0 (Windows)" etag="ZjEoz1nX5vDnRl5B2nfF" version="14.6.12" type="github">
+  <diagram id="wttoIb0FVgMLbgLxfZE_" name="第 1 页">
+    <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-3" value="两分钟扫描一次，仅扫描未支付数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sANHS4Lvb-ClkXiqw4nF-1" target="sANHS4Lvb-ClkXiqw4nF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="150" />
+              <mxPoint x="260" y="150" />
+              <mxPoint x="260" y="145" />
+              <mxPoint x="340" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-5" value="通过过滤后的数据请求微信或者支付宝查单接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sANHS4Lvb-ClkXiqw4nF-15" target="sANHS4Lvb-ClkXiqw4nF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sANHS4Lvb-ClkXiqw4nF-1" target="sANHS4Lvb-ClkXiqw4nF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-1" value="定时器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-2" value="支付流水表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-8" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sANHS4Lvb-ClkXiqw4nF-4" target="sANHS4Lvb-ClkXiqw4nF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-11" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sANHS4Lvb-ClkXiqw4nF-4" target="sANHS4Lvb-ClkXiqw4nF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-4" value="判断用户是否支付" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="515" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-6" value="支付状态更改为已关闭状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-7" value="支付状态更改为已退款，并调用退款接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-14" value="插入数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sANHS4Lvb-ClkXiqw4nF-12" target="sANHS4Lvb-ClkXiqw4nF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-12" value="支付前请求签名数据时插入数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sANHS4Lvb-ClkXiqw4nF-15" value="扫描的数据需要过滤下，过滤掉不是已关单的状态。" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="280" width="170" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
