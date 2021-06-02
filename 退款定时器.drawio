@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T11:49:08.847Z" agent="5.0 (Windows)" etag="vMXxsbOS8v3sdZ-_ERN0" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T11:52:27.616Z" agent="5.0 (Windows)" etag="lg68Ia6H1R1-YNuRhL-G" version="14.7.3" type="github">
   <diagram id="80yZAHpurwyC2C2U7vmw" name="第 1 页">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,12 +33,8 @@
         <mxCell id="2Vet_JQUSWxg4O2W9YX3-11" value="修改订单表中的订单状态和退款表中的退款状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2Vet_JQUSWxg4O2W9YX3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Vet_JQUSWxg4O2W9YX3-13" target="2Vet_JQUSWxg4O2W9YX3-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="550" y="660" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="2Vet_JQUSWxg4O2W9YX3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Vet_JQUSWxg4O2W9YX3-13" target="2Vet_JQUSWxg4O2W9YX3-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2Vet_JQUSWxg4O2W9YX3-13" value="请求支付宝退款接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="520" width="120" height="60" as="geometry" />
