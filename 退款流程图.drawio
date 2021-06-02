@@ -1,35 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T10:50:32.850Z" agent="5.0 (Windows)" etag="BoXdh66ba6CPSYADcSjO" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T11:32:03.977Z" agent="5.0 (Windows)" etag="voTrNAPBga4WFLZuStQf" version="14.7.3" type="github">
   <diagram id="uEqumdrDDW2e8-vOETnu" name="第 1 页">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oSnMHK_lwXkaq8BLRrkO-5" value="请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSnMHK_lwXkaq8BLRrkO-1" target="oSnMHK_lwXkaq8BLRrkO-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oSnMHK_lwXkaq8BLRrkO-1" value="后台同意退款" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oSnMHK_lwXkaq8BLRrkO-9" value="修改退款状态为退款中，请求退款接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSnMHK_lwXkaq8BLRrkO-2" target="oSnMHK_lwXkaq8BLRrkO-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oSnMHK_lwXkaq8BLRrkO-2" value="同意退款接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="oSnMHK_lwXkaq8BLRrkO-3" value="退款表tc_refund_order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="505" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oSnMHK_lwXkaq8BLRrkO-10" value="扫描退款中的数据，先查询该订单退款是否成功，未成功则请求退款接口，已成功则修改状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSnMHK_lwXkaq8BLRrkO-6" target="oSnMHK_lwXkaq8BLRrkO-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oSnMHK_lwXkaq8BLRrkO-6" value="定时器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oSnMHK_lwXkaq8BLRrkO-17" value="更新退款单状态，先更新订单表在更新退款表" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSnMHK_lwXkaq8BLRrkO-14" target="oSnMHK_lwXkaq8BLRrkO-3">
+        <mxCell id="oSnMHK_lwXkaq8BLRrkO-22" value="更新订单表订单状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSnMHK_lwXkaq8BLRrkO-14" target="oSnMHK_lwXkaq8BLRrkO-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oSnMHK_lwXkaq8BLRrkO-14" value="回调接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSnMHK_lwXkaq8BLRrkO-20" value="回调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSnMHK_lwXkaq8BLRrkO-19" target="oSnMHK_lwXkaq8BLRrkO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSnMHK_lwXkaq8BLRrkO-19" value="支付宝或者微信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSnMHK_lwXkaq8BLRrkO-23" value="更新退款表退款状态" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSnMHK_lwXkaq8BLRrkO-21" target="oSnMHK_lwXkaq8BLRrkO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSnMHK_lwXkaq8BLRrkO-21" value="订单表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
